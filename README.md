@@ -1,2 +1,3 @@
 # api-base-framework
-Pytest, TestClasses, PyHamcrest.
+Pytest, TestClasses(setup/teardown),  PyHamcrest, Requesets.
+NON FIXTURE based.
