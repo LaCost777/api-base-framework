@@ -140,3 +140,4 @@ class TestBookCreationPositive:
             equal_to(test_book_title),
             "POSTed title is NOT same in GET request.",
         )
+        reps2 = 123

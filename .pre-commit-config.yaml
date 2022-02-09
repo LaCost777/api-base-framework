@@ -13,7 +13,7 @@
       entry: isort
       language: system
       types: [python]
-
+  
     - id: autoflake
       name: autoflake
       entry: autoflake
