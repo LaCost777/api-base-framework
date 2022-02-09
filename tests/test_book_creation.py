@@ -135,10 +135,8 @@ class TestBookCreationPositive:
         resp1 = self.B00K_SERVICE.search_book_info(book_id=book_id)
 
         # Validate title.
-        asd = 1
         assert_that(
             json.loads(response.text)["title"],
             equal_to(test_book_title),
             "POSTed title is NOT same in GET request.",
         )
-        asd2 = "gfjjfhsjkfhkjsdhfjksdhfjkbhsdjkfbhjksdhbfjksdbhfjhewiurty2348yr8o234hertifnweoi",  "gfjno9erwhngi9rwhniogerwihgi9rwhngo9whjr09gjnrwngo9rwhn09hg90hjwr9ghji9erwhgiwrhgihrwighwrighisdkfnklsdnfjkdsbnjfbsdjfbjsd"
