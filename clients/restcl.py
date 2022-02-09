@@ -1,4 +1,5 @@
 import logging
+
 import requests
 
 
@@ -19,45 +20,49 @@ class RestBookServiceClient:
 
     def create_book(self, body):
         self.log.debug(f"Attempt to POST book: {body}"
-                       f"to {self.url+RestBookServiceClient.ENDPOINTS['manipulation']} endpoint.")
-        resp = requests.post(self.url+RestBookServiceClient.ENDPOINTS["manipulation"],
-                             json=body,
-                             timeout=5)
+                       f"to {self.url+RestBookServiceClient.ENDPOINTS['manipulation']} endpoint.")             # noqa
+        resp = requests.post(
+            self.url+RestBookServiceClient.ENDPOINTS["manipulation"],
+            json=body, timeout=5)
         return resp
 
     def update_book(self, body, book_id):
         self.log.debug(f"Attempt to UPDATE book: {body}"
-                       f"and URL is {self.url+RestBookServiceClient.ENDPOINTS['manipulation']}")
-        resp = requests.put(self.url+RestBookServiceClient.ENDPOINTS["manipulation"],
-                            json=body,
-                            params=({"id": book_id}),
-                            timeout=5)
+                       f"and URL is {self.url+RestBookServiceClient.ENDPOINTS['manipulation']}")              # noqa
+        resp = requests.put(
+            self.url+RestBookServiceClient.ENDPOINTS["manipulation"],
+            json=body,
+            params=({"id": book_id}), timeout=5)
         return resp
 
     def remove_book(self, book_id):
-        self.log.debug(f"Attempt to DELETE 1 book by specified 'id' param: {book_id}")
-        resp = requests.delete(self.url+RestBookServiceClient.ENDPOINTS['manipulation'],
-                               params=({"id": book_id}), timeout=5)
+        self.log.debug(f"Attempt to DELETE 1 book by specified 'id' param: {book_id}")                      # noqa
+        resp = requests.delete(
+            self.url+RestBookServiceClient.ENDPOINTS['manipulation'],
+            params=({"id": book_id}), timeout=5)
         return resp
 
     def search_book_info(self, book_id):
-        self.log.debug(f"Attempt to GET /info of the book by specified 'id' param: {book_id}")
+        self.log.debug(f"Attempt to GET /info of the book by specified 'id' param: {book_id}")             # noqa
         resp = requests.get(self.url+RestBookServiceClient.ENDPOINTS['info'],
                             params=({"id": book_id}), timeout=5)
         return resp
 
     def search_books(self, limit=100000000):
-        self.log.debug(f"Attempt to GET /latest created books (or all) sliced by 'limit' param. Current: {limit}")
+        self.log.debug(f"Attempt to GET /latest created books (or all) sliced by 'limit' param. Current: {limit}") # noqa
         resp = requests.get(self.url+RestBookServiceClient.ENDPOINTS['latest'],
                             params=({"limit": limit}), timeout=5)
         return resp
 
     def search_all_books_by_type(self, book_type):
-        self.log.debug(f"Attempt to GET /ids (full information of the books) by type. Current: {book_type}")
-        resp = requests.get(self.url+RestBookServiceClient.ENDPOINTS['ids'],
-                            params=({"ids": book_type}), timeout=5)
+        self.log.debug(f"Attempt to GET /ids (full information of the books) by type. Current: {book_type}")    # noqa
+        resp = requests.get(
+            self.url+RestBookServiceClient.ENDPOINTS['ids'],
+            params=({"ids": book_type}), timeout=5)
         return resp
 
     @staticmethod
     def validate_book_was_created(response, test_data):
-        assert response.status_code == 200, f"Book was NOT created with data {test_data}, {response.status_code}"
+        assert response.status_code == 200,\
+            f"Book was NOT created with data {test_data}," \
+            f" {response.status_code}"
