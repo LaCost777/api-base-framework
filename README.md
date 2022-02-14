@@ -1,6 +1,8 @@
 <h1>API Testing Framework</h1>
 
-
+![Contributors](https://img.shields.io/github/contributors/LaCost777/api-base-framework?style=for-the-badge&logo=dependabot&logoColor=white)
+![Forks](https://img.shields.io/github/forks/LaCost777/api-base-framework?style=for-the-badge&logo=dependabot&logoColor=white)
+![Issues](https://img.shields.io/github/issues-raw/LaCost777/api-base-framework?style=for-the-badge&logo=dependabot&logoColor=white)
 
 <h3>About the project</h3>
 
@@ -96,3 +98,33 @@ Basic libraries.
   - yarg                   0.1.9
 </details>
 
+
+
+<h3>How to Install the Project and Run Tests</h3>
+
+1. Install Python, Pip & Virtual Environment. [Installing packages using pip and virtual environments.](https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/#installing-packages-using-pip-and-virtual-environments)
+2. Install dependencies via installing **requironments.txt** located in project root dir. 
+```
+pip install -r requirements.txt
+
+```
+3. Run tests with pytest (Ensure, API Service is running and tests are correctly setup to connect to it's hostname via clients/restcl.py).
+
+Without UI allur reporting. But with additional verbosity to console. 
+```
+pytest tests/test_book_creation.py -v
+```
+
+With UI allur reporting. And with additional verbosity to console. 
+```
+pytest tests/test_book_creation.py -v --alluredir=/tmp/my_allure_results
+allure serve /tmp/my_allure_results
+
+   Generating report to temp directory...
+   Report successfully generated to /var/folders/b5/z9rrx3rj3c13pmfw3c7xr2s00000gn/T/16722575253899066065/allure-report
+   Starting web server...
+   2022-02-14 12:55:27.445:INFO::main: Logging initialized @1579ms to org.eclipse.jetty.util.log.StdErrLog
+   Server started at <http://192.168.0.102:62687/>. Press <Ctrl+C> to exit
+```
+
+<h3>XXXX</h3>
