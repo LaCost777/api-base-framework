@@ -126,5 +126,3 @@ allure serve /tmp/my_allure_results
    2022-02-14 12:55:27.445:INFO::main: Logging initialized @1579ms to org.eclipse.jetty.util.log.StdErrLog
    Server started at <http://192.168.0.102:62687/>. Press <Ctrl+C> to exit
 ```
-
-<h3>XXXX</h3>
