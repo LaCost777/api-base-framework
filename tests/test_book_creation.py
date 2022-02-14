@@ -5,7 +5,8 @@ import string
 from datetime import date
 
 import pytest
-from hamcrest import assert_that, equal_to
+from hamcrest import assert_that
+from hamcrest import equal_to
 
 from clients.restcl import RestBookServiceClient
 
@@ -56,16 +57,16 @@ class TestBookCreationPositive:
             "creation_date": f"{date.today().isoformat()}",
         }
 
-        response = self.B00K_SERVICE.create_book(book_body)
+        resp_create_book = self.B00K_SERVICE.create_book(book_body)
 
-        self.B00K_SERVICE.validate_book_was_created(response, test_book_type)
-        book_id = json.loads(response.text)["id"]
+        self.B00K_SERVICE.validate_book_was_created(resp_create_book, test_book_type)
+        book_id = json.loads(resp_create_book.text)["id"]
 
         # GET created book, by id.
-        resp = self.B00K_SERVICE.search_book_info(book_id=book_id)
+        resp_get_book = self.B00K_SERVICE.search_book_info(book_id=book_id)
 
         # Validate book type.
-        assert json.loads(resp.text)["type"] == test_book_type
+        assert json.loads(resp_get_book.text)["type"] == test_book_type
 
     @pytest.mark.parametrize(
         "date_format",
@@ -81,28 +82,28 @@ class TestBookCreationPositive:
             "type": "Drama",
             "creation_date": f"{date_format}",
         }
-        response = self.B00K_SERVICE.create_book(book_body)
+        resp_create_book = self.B00K_SERVICE.create_book(book_body)
 
-        self.B00K_SERVICE.validate_book_was_created(response, date_format)
-        book_id = json.loads(response.text)["id"]
+        self.B00K_SERVICE.validate_book_was_created(resp_create_book, date_format)
+        book_id = json.loads(resp_create_book.text)["id"]
         # GET created book, by id.
-        resp = self.B00K_SERVICE.search_book_info(book_id=book_id)
+        resp_get_book = self.B00K_SERVICE.search_book_info(book_id=book_id)
 
         # Validate created_date.
-        assert json.loads(resp.text)["creation_date"] == date_format
+        assert json.loads(resp_get_book.text)["creation_date"] == date_format
 
     def test_create_book_with_missing_creation_date_field(self):
         # Create a book.
         book_body = {"title": "TestAutoSmartQA", "type": "Drama"}
-        response = self.B00K_SERVICE.create_book(book_body)
-        self.B00K_SERVICE.validate_book_was_created(response, book_body)
-        book_id = json.loads(response.text)["id"]
+        resp_create_book = self.B00K_SERVICE.create_book(book_body)
+        self.B00K_SERVICE.validate_book_was_created(resp_create_book, book_body)
+        book_id = json.loads(resp_create_book.text)["id"]
 
         # GET created book, by id.
-        resp = self.B00K_SERVICE.search_book_info(book_id=book_id)
+        resp_get_book = self.B00K_SERVICE.search_book_info(book_id=book_id)
 
         # Validate created_date.
-        assert json.loads(resp.text)["creation_date"] is None
+        assert json.loads(resp_get_book.text)["creation_date"] is None
 
     # weak test data just to save time.
     @pytest.mark.parametrize(
@@ -126,18 +127,17 @@ class TestBookCreationPositive:
             "type": "Drama",
             "creation_date": f"{date.today().isoformat()}",
         }
-        response = self.B00K_SERVICE.create_book(book_body)
+        resp_create_book = self.B00K_SERVICE.create_book(book_body)
 
-        self.B00K_SERVICE.validate_book_was_created(response, test_book_title)
-        book_id = json.loads(response.text)["id"]
+        self.B00K_SERVICE.validate_book_was_created(resp_create_book, test_book_title)
+        book_id = json.loads(resp_create_book.text)["id"]
 
         # GET created book, by id.
-        resp1 = self.B00K_SERVICE.search_book_info(book_id=book_id)
+        resp_get_book = self.B00K_SERVICE.search_book_info(book_id=book_id)
 
         # Validate title.
         assert_that(
-            json.loads(response.text)["title"],
+            json.loads(resp_get_book.text)["title"],
             equal_to(test_book_title),
             "POSTed title is NOT same in GET request.",
         )
-        reps2 = 123
