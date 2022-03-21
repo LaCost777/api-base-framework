@@ -1,0 +1,1186 @@
+versions pytest-6.2.5, py-1.11.0, python-3.8.9.final.0
+cwd=/Users/bbranytskyi/PycharmProjects/bookServiceAuto/tests
+args=('test_book_creation.py', '-vvv', '--debug')
+
+  pytest_cmdline_main [hook]
+      config: <_pytest.config.Config object at 0x1052ba9a0>
+    pytest_plugin_registered [hook]
+        plugin: <Session tests exitstatus='<UNSET>' testsfailed=0 testscollected=0>
+        manager: <_pytest.config.PytestPluginManager object at 0x10527e0d0>
+    finish pytest_plugin_registered --> [] [hook]
+    pytest_configure [hook]
+        config: <_pytest.config.Config object at 0x1052ba9a0>
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.LFPlugin object at 0x10541ab80>
+          manager: <_pytest.config.PytestPluginManager object at 0x10527e0d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.NFPlugin object at 0x1053ecf40>
+          manager: <_pytest.config.PytestPluginManager object at 0x10527e0d0>
+      finish pytest_plugin_registered --> [] [hook]
+    early skip of rewriting module: faulthandler [assertion]
+      pytest_configure [hook]
+          config: <_pytest.config.Config object at 0x1052ba9a0>
+      finish pytest_configure --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.faulthandler.FaultHandlerHooks object at 0x10541a8b0>
+          manager: <_pytest.config.PytestPluginManager object at 0x10527e0d0>
+      finish pytest_plugin_registered --> [] [hook]
+    early skip of rewriting module: pdb [assertion]
+    early skip of rewriting module: cmd [assertion]
+    early skip of rewriting module: code [assertion]
+    early skip of rewriting module: codeop [assertion]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.config.PytestPluginManager object at 0x10527e0d0>
+          manager: <_pytest.config.PytestPluginManager object at 0x10527e0d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.config.Config object at 0x1052ba9a0>
+          manager: <_pytest.config.PytestPluginManager object at 0x10527e0d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.mark' from '/Users/bbranytskyi/PycharmProjects/bookServiceAuto/venv/lib/python3.8/site-packages/_pytest/mark/__init__.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10527e0d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.main' from '/Users/bbranytskyi/PycharmProjects/bookServiceAuto/venv/lib/python3.8/site-packages/_pytest/main.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10527e0d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.runner' from '/Users/bbranytskyi/PycharmProjects/bookServiceAuto/venv/lib/python3.8/site-packages/_pytest/runner.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10527e0d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.fixtures' from '/Users/bbranytskyi/PycharmProjects/bookServiceAuto/venv/lib/python3.8/site-packages/_pytest/fixtures.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10527e0d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.helpconfig' from '/Users/bbranytskyi/PycharmProjects/bookServiceAuto/venv/lib/python3.8/site-packages/_pytest/helpconfig.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10527e0d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.python' from '/Users/bbranytskyi/PycharmProjects/bookServiceAuto/venv/lib/python3.8/site-packages/_pytest/python.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10527e0d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.terminal' from '/Users/bbranytskyi/PycharmProjects/bookServiceAuto/venv/lib/python3.8/site-packages/_pytest/terminal.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10527e0d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.debugging' from '/Users/bbranytskyi/PycharmProjects/bookServiceAuto/venv/lib/python3.8/site-packages/_pytest/debugging.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10527e0d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.unittest' from '/Users/bbranytskyi/PycharmProjects/bookServiceAuto/venv/lib/python3.8/site-packages/_pytest/unittest.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10527e0d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.capture' from '/Users/bbranytskyi/PycharmProjects/bookServiceAuto/venv/lib/python3.8/site-packages/_pytest/capture.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10527e0d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.skipping' from '/Users/bbranytskyi/PycharmProjects/bookServiceAuto/venv/lib/python3.8/site-packages/_pytest/skipping.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10527e0d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.tmpdir' from '/Users/bbranytskyi/PycharmProjects/bookServiceAuto/venv/lib/python3.8/site-packages/_pytest/tmpdir.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10527e0d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.monkeypatch' from '/Users/bbranytskyi/PycharmProjects/bookServiceAuto/venv/lib/python3.8/site-packages/_pytest/monkeypatch.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10527e0d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.recwarn' from '/Users/bbranytskyi/PycharmProjects/bookServiceAuto/venv/lib/python3.8/site-packages/_pytest/recwarn.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10527e0d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.pastebin' from '/Users/bbranytskyi/PycharmProjects/bookServiceAuto/venv/lib/python3.8/site-packages/_pytest/pastebin.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10527e0d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.nose' from '/Users/bbranytskyi/PycharmProjects/bookServiceAuto/venv/lib/python3.8/site-packages/_pytest/nose.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10527e0d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.assertion' from '/Users/bbranytskyi/PycharmProjects/bookServiceAuto/venv/lib/python3.8/site-packages/_pytest/assertion/__init__.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10527e0d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.junitxml' from '/Users/bbranytskyi/PycharmProjects/bookServiceAuto/venv/lib/python3.8/site-packages/_pytest/junitxml.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10527e0d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.doctest' from '/Users/bbranytskyi/PycharmProjects/bookServiceAuto/venv/lib/python3.8/site-packages/_pytest/doctest.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10527e0d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.cacheprovider' from '/Users/bbranytskyi/PycharmProjects/bookServiceAuto/venv/lib/python3.8/site-packages/_pytest/cacheprovider.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10527e0d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.freeze_support' from '/Users/bbranytskyi/PycharmProjects/bookServiceAuto/venv/lib/python3.8/site-packages/_pytest/freeze_support.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10527e0d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.setuponly' from '/Users/bbranytskyi/PycharmProjects/bookServiceAuto/venv/lib/python3.8/site-packages/_pytest/setuponly.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10527e0d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.setupplan' from '/Users/bbranytskyi/PycharmProjects/bookServiceAuto/venv/lib/python3.8/site-packages/_pytest/setupplan.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10527e0d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.stepwise' from '/Users/bbranytskyi/PycharmProjects/bookServiceAuto/venv/lib/python3.8/site-packages/_pytest/stepwise.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10527e0d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.warnings' from '/Users/bbranytskyi/PycharmProjects/bookServiceAuto/venv/lib/python3.8/site-packages/_pytest/warnings.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10527e0d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.logging' from '/Users/bbranytskyi/PycharmProjects/bookServiceAuto/venv/lib/python3.8/site-packages/_pytest/logging.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10527e0d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.reports' from '/Users/bbranytskyi/PycharmProjects/bookServiceAuto/venv/lib/python3.8/site-packages/_pytest/reports.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10527e0d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.unraisableexception' from '/Users/bbranytskyi/PycharmProjects/bookServiceAuto/venv/lib/python3.8/site-packages/_pytest/unraisableexception.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10527e0d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.threadexception' from '/Users/bbranytskyi/PycharmProjects/bookServiceAuto/venv/lib/python3.8/site-packages/_pytest/threadexception.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10527e0d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.faulthandler' from '/Users/bbranytskyi/PycharmProjects/bookServiceAuto/venv/lib/python3.8/site-packages/_pytest/faulthandler.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10527e0d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <CaptureManager _method='fd' _global_capturing=<MultiCapture out=<FDCapture 1 oldfd=6 _state='suspended' tmpfile=<_io.TextIOWrapper name="<_io.FileIO name=7 mode='rb+' closefd=True>" mode='r+' encoding='utf-8'>> err=<FDCapture 2 oldfd=8 _state='suspended' tmpfile=<_io.TextIOWrapper name="<_io.FileIO name=9 mode='rb+' closefd=True>" mode='r+' encoding='utf-8'>> in_=<FDCapture 0 oldfd=4 _state='started' tmpfile=<_io.TextIOWrapper name='/dev/null' mode='r' encoding='UTF-8'>> _state='suspended' _in_suspended=False> _capture_fixture=None>
+          manager: <_pytest.config.PytestPluginManager object at 0x10527e0d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <Session tests exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+          manager: <_pytest.config.PytestPluginManager object at 0x10527e0d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.LFPlugin object at 0x10541ab80>
+          manager: <_pytest.config.PytestPluginManager object at 0x10527e0d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.NFPlugin object at 0x1053ecf40>
+          manager: <_pytest.config.PytestPluginManager object at 0x10527e0d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.faulthandler.FaultHandlerHooks object at 0x10541a8b0>
+          manager: <_pytest.config.PytestPluginManager object at 0x10527e0d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.terminal.TerminalReporter object at 0x10541a580>
+          manager: <_pytest.config.PytestPluginManager object at 0x10527e0d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.logging.LoggingPlugin object at 0x105471100>
+          manager: <_pytest.config.PytestPluginManager object at 0x10527e0d0>
+      finish pytest_plugin_registered --> [] [hook]
+    finish pytest_configure --> [] [hook]
+    pytest_sessionstart [hook]
+        session: <Session tests exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.config.PytestPluginManager object at 0x10527e0d0>
+          manager: <_pytest.config.PytestPluginManager object at 0x10527e0d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.config.Config object at 0x1052ba9a0>
+          manager: <_pytest.config.PytestPluginManager object at 0x10527e0d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.mark' from '/Users/bbranytskyi/PycharmProjects/bookServiceAuto/venv/lib/python3.8/site-packages/_pytest/mark/__init__.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10527e0d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.main' from '/Users/bbranytskyi/PycharmProjects/bookServiceAuto/venv/lib/python3.8/site-packages/_pytest/main.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10527e0d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.runner' from '/Users/bbranytskyi/PycharmProjects/bookServiceAuto/venv/lib/python3.8/site-packages/_pytest/runner.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10527e0d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.fixtures' from '/Users/bbranytskyi/PycharmProjects/bookServiceAuto/venv/lib/python3.8/site-packages/_pytest/fixtures.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10527e0d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.helpconfig' from '/Users/bbranytskyi/PycharmProjects/bookServiceAuto/venv/lib/python3.8/site-packages/_pytest/helpconfig.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10527e0d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.python' from '/Users/bbranytskyi/PycharmProjects/bookServiceAuto/venv/lib/python3.8/site-packages/_pytest/python.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10527e0d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.terminal' from '/Users/bbranytskyi/PycharmProjects/bookServiceAuto/venv/lib/python3.8/site-packages/_pytest/terminal.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10527e0d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.debugging' from '/Users/bbranytskyi/PycharmProjects/bookServiceAuto/venv/lib/python3.8/site-packages/_pytest/debugging.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10527e0d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.unittest' from '/Users/bbranytskyi/PycharmProjects/bookServiceAuto/venv/lib/python3.8/site-packages/_pytest/unittest.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10527e0d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.capture' from '/Users/bbranytskyi/PycharmProjects/bookServiceAuto/venv/lib/python3.8/site-packages/_pytest/capture.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10527e0d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.skipping' from '/Users/bbranytskyi/PycharmProjects/bookServiceAuto/venv/lib/python3.8/site-packages/_pytest/skipping.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10527e0d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.tmpdir' from '/Users/bbranytskyi/PycharmProjects/bookServiceAuto/venv/lib/python3.8/site-packages/_pytest/tmpdir.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10527e0d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.monkeypatch' from '/Users/bbranytskyi/PycharmProjects/bookServiceAuto/venv/lib/python3.8/site-packages/_pytest/monkeypatch.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10527e0d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.recwarn' from '/Users/bbranytskyi/PycharmProjects/bookServiceAuto/venv/lib/python3.8/site-packages/_pytest/recwarn.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10527e0d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.pastebin' from '/Users/bbranytskyi/PycharmProjects/bookServiceAuto/venv/lib/python3.8/site-packages/_pytest/pastebin.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10527e0d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.nose' from '/Users/bbranytskyi/PycharmProjects/bookServiceAuto/venv/lib/python3.8/site-packages/_pytest/nose.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10527e0d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.assertion' from '/Users/bbranytskyi/PycharmProjects/bookServiceAuto/venv/lib/python3.8/site-packages/_pytest/assertion/__init__.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10527e0d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.junitxml' from '/Users/bbranytskyi/PycharmProjects/bookServiceAuto/venv/lib/python3.8/site-packages/_pytest/junitxml.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10527e0d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.doctest' from '/Users/bbranytskyi/PycharmProjects/bookServiceAuto/venv/lib/python3.8/site-packages/_pytest/doctest.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10527e0d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.cacheprovider' from '/Users/bbranytskyi/PycharmProjects/bookServiceAuto/venv/lib/python3.8/site-packages/_pytest/cacheprovider.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10527e0d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.freeze_support' from '/Users/bbranytskyi/PycharmProjects/bookServiceAuto/venv/lib/python3.8/site-packages/_pytest/freeze_support.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10527e0d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.setuponly' from '/Users/bbranytskyi/PycharmProjects/bookServiceAuto/venv/lib/python3.8/site-packages/_pytest/setuponly.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10527e0d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.setupplan' from '/Users/bbranytskyi/PycharmProjects/bookServiceAuto/venv/lib/python3.8/site-packages/_pytest/setupplan.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10527e0d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.stepwise' from '/Users/bbranytskyi/PycharmProjects/bookServiceAuto/venv/lib/python3.8/site-packages/_pytest/stepwise.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10527e0d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.warnings' from '/Users/bbranytskyi/PycharmProjects/bookServiceAuto/venv/lib/python3.8/site-packages/_pytest/warnings.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10527e0d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.logging' from '/Users/bbranytskyi/PycharmProjects/bookServiceAuto/venv/lib/python3.8/site-packages/_pytest/logging.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10527e0d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.reports' from '/Users/bbranytskyi/PycharmProjects/bookServiceAuto/venv/lib/python3.8/site-packages/_pytest/reports.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10527e0d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.unraisableexception' from '/Users/bbranytskyi/PycharmProjects/bookServiceAuto/venv/lib/python3.8/site-packages/_pytest/unraisableexception.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10527e0d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.threadexception' from '/Users/bbranytskyi/PycharmProjects/bookServiceAuto/venv/lib/python3.8/site-packages/_pytest/threadexception.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10527e0d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.faulthandler' from '/Users/bbranytskyi/PycharmProjects/bookServiceAuto/venv/lib/python3.8/site-packages/_pytest/faulthandler.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10527e0d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <CaptureManager _method='fd' _global_capturing=<MultiCapture out=<FDCapture 1 oldfd=6 _state='suspended' tmpfile=<_io.TextIOWrapper name="<_io.FileIO name=7 mode='rb+' closefd=True>" mode='r+' encoding='utf-8'>> err=<FDCapture 2 oldfd=8 _state='suspended' tmpfile=<_io.TextIOWrapper name="<_io.FileIO name=9 mode='rb+' closefd=True>" mode='r+' encoding='utf-8'>> in_=<FDCapture 0 oldfd=4 _state='started' tmpfile=<_io.TextIOWrapper name='/dev/null' mode='r' encoding='UTF-8'>> _state='suspended' _in_suspended=False> _capture_fixture=None>
+          manager: <_pytest.config.PytestPluginManager object at 0x10527e0d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <Session tests exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+          manager: <_pytest.config.PytestPluginManager object at 0x10527e0d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.LFPlugin object at 0x10541ab80>
+          manager: <_pytest.config.PytestPluginManager object at 0x10527e0d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.NFPlugin object at 0x1053ecf40>
+          manager: <_pytest.config.PytestPluginManager object at 0x10527e0d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.faulthandler.FaultHandlerHooks object at 0x10541a8b0>
+          manager: <_pytest.config.PytestPluginManager object at 0x10527e0d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.terminal.TerminalReporter object at 0x10541a580>
+          manager: <_pytest.config.PytestPluginManager object at 0x10527e0d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.logging.LoggingPlugin object at 0x105471100>
+          manager: <_pytest.config.PytestPluginManager object at 0x10527e0d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.fixtures.FixtureManager object at 0x1053ec460>
+          manager: <_pytest.config.PytestPluginManager object at 0x10527e0d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_report_header [hook]
+          config: <_pytest.config.Config object at 0x1052ba9a0>
+          startdir: /Users/bbranytskyi/PycharmProjects/bookServiceAuto/tests
+      finish pytest_report_header --> [['rootdir: /Users/bbranytskyi/PycharmProjects/bookServiceAuto/tests'], 'cachedir: .pytest_cache', ['using: pytest-6.2.5 pylib-1.11.0']] [hook]
+    finish pytest_sessionstart --> [] [hook]
+    pytest_collection [hook]
+        session: <Session tests exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+    perform_collect <Session tests exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0> ['test_book_creation.py'] [collection]
+        pytest_collectstart [hook]
+            collector: <Session tests exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+        finish pytest_collectstart --> [] [hook]
+        pytest_make_collect_report [hook]
+            collector: <Session tests exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+        processing argument (local('/Users/bbranytskyi/PycharmProjects/bookServiceAuto/tests/test_book_creation.py'), []) [collection]
+            pytest_ignore_collect [hook]
+                path: /Users/bbranytskyi/PycharmProjects/bookServiceAuto/tests/__init__.py
+                config: <_pytest.config.Config object at 0x1052ba9a0>
+            finish pytest_ignore_collect --> None [hook]
+            pytest_collect_file [hook]
+                path: /Users/bbranytskyi/PycharmProjects/bookServiceAuto/tests/__init__.py
+                parent: <Session tests exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+              pytest_pycollect_makemodule [hook]
+                  path: /Users/bbranytskyi/PycharmProjects/bookServiceAuto/tests/__init__.py
+                  parent: <Session tests exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+              finish pytest_pycollect_makemodule --> <Package tests> [hook]
+            finish pytest_collect_file --> [<Package tests>] [hook]
+            pytest_collect_file [hook]
+                path: /Users/bbranytskyi/PycharmProjects/bookServiceAuto/tests/test_book_creation.py
+                parent: <Package tests>
+              pytest_pycollect_makemodule [hook]
+                  path: /Users/bbranytskyi/PycharmProjects/bookServiceAuto/tests/test_book_creation.py
+                  parent: <Package tests>
+              finish pytest_pycollect_makemodule --> <Module test_book_creation.py> [hook]
+            finish pytest_collect_file --> [<Module test_book_creation.py>] [hook]
+          matchnodes [<Module test_book_creation.py>] [] [collection]
+            matchnodes finished ->  1 nodes [collection]
+        finish pytest_make_collect_report --> <CollectReport '' lenresult=1 outcome='passed'> [hook]
+        pytest_collectreport [hook]
+            report: <CollectReport '' lenresult=1 outcome='passed'>
+        finish pytest_collectreport --> [] [hook]
+    genitems <Module test_book_creation.py> [collection]
+      pytest_collectstart [hook]
+          collector: <Module test_book_creation.py>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Module test_book_creation.py>
+      early skip of rewriting module: tests [assertion]
+      find_module called for: tests.test_book_creation [assertion]
+      matched test file (was specified on cmdline): '/Users/bbranytskyi/PycharmProjects/bookServiceAuto/tests/test_book_creation.py' [assertion]
+      _read_pyc(/Users/bbranytskyi/PycharmProjects/bookServiceAuto/tests/test_book_creation.py): out of date [assertion]
+      rewriting PosixPath('/Users/bbranytskyi/PycharmProjects/bookServiceAuto/tests/test_book_creation.py') [assertion]
+      early skip of rewriting module: magic [assertion]
+      early skip of rewriting module: magic.restcl [assertion]
+      early skip of rewriting module: requests [assertion]
+      early skip of rewriting module: urllib3 [assertion]
+      early skip of rewriting module: urllib3.exceptions [assertion]
+      early skip of rewriting module: urllib3.packages [assertion]
+      early skip of rewriting module: urllib3.packages.six [assertion]
+      early skip of rewriting module: urllib3.packages.six.moves [assertion]
+      early skip of rewriting module: urllib3.packages.six.moves.http_client [assertion]
+      early skip of rewriting module: http [assertion]
+      early skip of rewriting module: http.client [assertion]
+      early skip of rewriting module: email.parser [assertion]
+      early skip of rewriting module: email.feedparser [assertion]
+      early skip of rewriting module: email.errors [assertion]
+      early skip of rewriting module: email._policybase [assertion]
+      early skip of rewriting module: email.header [assertion]
+      early skip of rewriting module: email.quoprimime [assertion]
+      early skip of rewriting module: email.base64mime [assertion]
+      early skip of rewriting module: base64 [assertion]
+      early skip of rewriting module: email.charset [assertion]
+      early skip of rewriting module: email.encoders [assertion]
+      early skip of rewriting module: quopri [assertion]
+      early skip of rewriting module: email.utils [assertion]
+      early skip of rewriting module: socket [assertion]
+      early skip of rewriting module: _socket [assertion]
+      early skip of rewriting module: email._parseaddr [assertion]
+      early skip of rewriting module: calendar [assertion]
+      early skip of rewriting module: email.message [assertion]
+      early skip of rewriting module: uu [assertion]
+      early skip of rewriting module: email._encoded_words [assertion]
+      early skip of rewriting module: email.iterators [assertion]
+      early skip of rewriting module: ssl [assertion]
+      early skip of rewriting module: _ssl [assertion]
+      early skip of rewriting module: urllib3._version [assertion]
+      early skip of rewriting module: urllib3.connectionpool [assertion]
+      early skip of rewriting module: urllib3.connection [assertion]
+      early skip of rewriting module: urllib3.util [assertion]
+      early skip of rewriting module: urllib3.util.connection [assertion]
+      early skip of rewriting module: urllib3.contrib [assertion]
+      early skip of rewriting module: urllib3.contrib._appengine_environ [assertion]
+      early skip of rewriting module: urllib3.util.wait [assertion]
+      early skip of rewriting module: urllib3.util.request [assertion]
+      early skip of rewriting module: brotli [assertion]
+      early skip of rewriting module: urllib3.util.response [assertion]
+      early skip of rewriting module: urllib3.util.retry [assertion]
+      early skip of rewriting module: urllib3.util.ssl_ [assertion]
+      early skip of rewriting module: hmac [assertion]
+      early skip of rewriting module: _hashlib [assertion]
+      early skip of rewriting module: hashlib [assertion]
+      early skip of rewriting module: _blake2 [assertion]
+      early skip of rewriting module: _sha3 [assertion]
+      early skip of rewriting module: urllib3.util.url [assertion]
+      early skip of rewriting module: urllib3.util.ssltransport [assertion]
+      early skip of rewriting module: urllib3.util.timeout [assertion]
+      early skip of rewriting module: urllib3.util.proxy [assertion]
+      early skip of rewriting module: urllib3._collections [assertion]
+      early skip of rewriting module: urllib3.util.ssl_match_hostname [assertion]
+      early skip of rewriting module: ipaddress [assertion]
+      early skip of rewriting module: queue [assertion]
+      early skip of rewriting module: _queue [assertion]
+      early skip of rewriting module: urllib3.request [assertion]
+      early skip of rewriting module: urllib3.filepost [assertion]
+      early skip of rewriting module: urllib3.fields [assertion]
+      early skip of rewriting module: mimetypes [assertion]
+      early skip of rewriting module: winreg [assertion]
+      early skip of rewriting module: urllib3.packages.six.moves.urllib [assertion]
+      early skip of rewriting module: urllib3.packages.six.moves.urllib.parse [assertion]
+      early skip of rewriting module: urllib3.response [assertion]
+      early skip of rewriting module: brotli [assertion]
+      early skip of rewriting module: urllib3.util.queue [assertion]
+      early skip of rewriting module: urllib3.poolmanager [assertion]
+      early skip of rewriting module: requests.exceptions [assertion]
+      early skip of rewriting module: requests.compat [assertion]
+      early skip of rewriting module: chardet [assertion]
+      early skip of rewriting module: charset_normalizer [assertion]
+      early skip of rewriting module: charset_normalizer.api [assertion]
+      early skip of rewriting module: charset_normalizer.cd [assertion]
+      early skip of rewriting module: charset_normalizer.assets [assertion]
+      early skip of rewriting module: charset_normalizer.constant [assertion]
+      early skip of rewriting module: charset_normalizer.md [assertion]
+      early skip of rewriting module: charset_normalizer.utils [assertion]
+      early skip of rewriting module: unicodedata2 [assertion]
+      early skip of rewriting module: _multibytecodec [assertion]
+      early skip of rewriting module: charset_normalizer.models [assertion]
+      early skip of rewriting module: charset_normalizer.legacy [assertion]
+      early skip of rewriting module: charset_normalizer.version [assertion]
+      early skip of rewriting module: simplejson [assertion]
+      early skip of rewriting module: urllib.request [assertion]
+      early skip of rewriting module: urllib.error [assertion]
+      early skip of rewriting module: urllib.response [assertion]
+      early skip of rewriting module: _scproxy [assertion]
+      early skip of rewriting module: http.cookiejar [assertion]
+      early skip of rewriting module: http.cookies [assertion]
+      early skip of rewriting module: chardet [assertion]
+      early skip of rewriting module: requests.__version__ [assertion]
+      early skip of rewriting module: requests.utils [assertion]
+      early skip of rewriting module: requests.certs [assertion]
+      early skip of rewriting module: certifi [assertion]
+      early skip of rewriting module: certifi.core [assertion]
+      early skip of rewriting module: importlib.resources [assertion]
+      early skip of rewriting module: requests._internal_utils [assertion]
+      early skip of rewriting module: requests.cookies [assertion]
+      early skip of rewriting module: requests.structures [assertion]
+      early skip of rewriting module: requests.packages [assertion]
+      early skip of rewriting module: chardet [assertion]
+      early skip of rewriting module: idna [assertion]
+      early skip of rewriting module: idna.package_data [assertion]
+      early skip of rewriting module: idna.core [assertion]
+      early skip of rewriting module: idna.idnadata [assertion]
+      early skip of rewriting module: idna.intranges [assertion]
+      early skip of rewriting module: requests.models [assertion]
+      early skip of rewriting module: encodings.idna [assertion]
+      early skip of rewriting module: stringprep [assertion]
+      early skip of rewriting module: requests.hooks [assertion]
+      early skip of rewriting module: requests.auth [assertion]
+      early skip of rewriting module: requests.status_codes [assertion]
+      early skip of rewriting module: requests.api [assertion]
+      early skip of rewriting module: requests.sessions [assertion]
+      early skip of rewriting module: requests.adapters [assertion]
+      early skip of rewriting module: urllib3.contrib.socks [assertion]
+      early skip of rewriting module: socks [assertion]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_book_creation.py>
+            name: @py_builtins
+            obj: <module 'builtins' (built-in)>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_book_creation.py>
+            name: @pytest_ar
+            obj: <module '_pytest.assertion.rewrite' from '/Users/bbranytskyi/PycharmProjects/bookServiceAuto/venv/lib/python3.8/site-packages/_pytest/assertion/rewrite.py'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_book_creation.py>
+            name: logging
+            obj: <module 'logging' from '/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/logging/__init__.py'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_book_creation.py>
+            name: pytest
+            obj: <module 'pytest' from '/Users/bbranytskyi/PycharmProjects/bookServiceAuto/venv/lib/python3.8/site-packages/pytest/__init__.py'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_book_creation.py>
+            name: json
+            obj: <module 'json' from '/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/json/__init__.py'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_book_creation.py>
+            name: RestBookServiceClient
+            obj: <class 'magic.restcl.RestBookServiceClient'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_book_creation.py>
+            name: TestClass
+            obj: <class 'tests.test_book_creation.TestClass'>
+        finish pytest_pycollect_makeitem --> <Class TestClass> [hook]
+      finish pytest_make_collect_report --> <CollectReport 'test_book_creation.py' lenresult=1 outcome='passed'> [hook]
+    genitems <Class TestClass> [collection]
+      pytest_collectstart [hook]
+          collector: <Class TestClass>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Class TestClass>
+      finish pytest_make_collect_report --> <CollectReport 'test_book_creation.py::TestClass' lenresult=1 outcome='passed'> [hook]
+    genitems <Instance ()> [collection]
+      pytest_collectstart [hook]
+          collector: <Instance ()>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Instance ()>
+        pytest_pycollect_makeitem [hook]
+            collector: <Instance ()>
+            name: setup_class
+            obj: <function TestClass.setup_class at 0x10546ba60>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Instance ()>
+            name: teardown_class
+            obj: <function TestClass.teardown_class at 0x10546b940>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Instance ()>
+            name: setup_method
+            obj: <function TestClass.setup_method at 0x10588e940>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Instance ()>
+            name: teardown_method
+            obj: <function TestClass.teardown_method at 0x10588e9d0>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Instance ()>
+            name: test_create_book_type_
+            obj: <function TestClass.test_create_book_type_ at 0x10588ea60>
+          pytest_generate_tests [hook]
+              metafunc: <_pytest.python.Metafunc object at 0x1058891c0>
+            pytest_make_parametrize_id [hook]
+                config: <_pytest.config.Config object at 0x1052ba9a0>
+                val: Drama
+                argname: test_book_type
+            finish pytest_make_parametrize_id --> None [hook]
+          early skip of rewriting module: encodings.unicode_escape [assertion]
+            pytest_make_parametrize_id [hook]
+                config: <_pytest.config.Config object at 0x1052ba9a0>
+                val: Science
+                argname: test_book_type
+            finish pytest_make_parametrize_id --> None [hook]
+            pytest_make_parametrize_id [hook]
+                config: <_pytest.config.Config object at 0x1052ba9a0>
+                val: Satire
+                argname: test_book_type
+            finish pytest_make_parametrize_id --> None [hook]
+            pytest_make_parametrize_id [hook]
+                config: <_pytest.config.Config object at 0x1052ba9a0>
+                val: Action and Adventure
+                argname: test_book_type
+            finish pytest_make_parametrize_id --> None [hook]
+            pytest_make_parametrize_id [hook]
+                config: <_pytest.config.Config object at 0x1052ba9a0>
+                val: Romance
+                argname: test_book_type
+            finish pytest_make_parametrize_id --> None [hook]
+          finish pytest_generate_tests --> [] [hook]
+        finish pytest_pycollect_makeitem --> [<Function test_create_book_type_[Drama]>, <Function test_create_book_type_[Science]>, <Function test_create_book_type_[Satire]>, <Function test_create_book_type_[Action and Adventure]>, <Function test_create_book_type_[Romance]>] [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Instance ()>
+            name: test_two
+            obj: <function TestClass.test_two at 0x10588eaf0>
+          pytest_generate_tests [hook]
+              metafunc: <_pytest.python.Metafunc object at 0x105889220>
+          finish pytest_generate_tests --> [] [hook]
+        finish pytest_pycollect_makeitem --> [<Function test_two>] [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Instance ()>
+            name: _Class__pytest_setup_class
+            obj: <function Class._inject_setup_class_fixture.<locals>.xunit_setup_class_fixture at 0x10588ee50>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Instance ()>
+            name: _Class__pytest_setup_method
+            obj: <function Class._inject_setup_method_fixture.<locals>.xunit_setup_method_fixture at 0x10588ef70>
+        finish pytest_pycollect_makeitem --> None [hook]
+      finish pytest_make_collect_report --> <CollectReport 'test_book_creation.py::TestClass' lenresult=6 outcome='passed'> [hook]
+    genitems <Function test_create_book_type_[Drama]> [collection]
+      pytest_itemcollected [hook]
+          item: <Function test_create_book_type_[Drama]>
+      finish pytest_itemcollected --> [] [hook]
+    genitems <Function test_create_book_type_[Science]> [collection]
+      pytest_itemcollected [hook]
+          item: <Function test_create_book_type_[Science]>
+      finish pytest_itemcollected --> [] [hook]
+    genitems <Function test_create_book_type_[Satire]> [collection]
+      pytest_itemcollected [hook]
+          item: <Function test_create_book_type_[Satire]>
+      finish pytest_itemcollected --> [] [hook]
+    genitems <Function test_create_book_type_[Action and Adventure]> [collection]
+      pytest_itemcollected [hook]
+          item: <Function test_create_book_type_[Action and Adventure]>
+      finish pytest_itemcollected --> [] [hook]
+    genitems <Function test_create_book_type_[Romance]> [collection]
+      pytest_itemcollected [hook]
+          item: <Function test_create_book_type_[Romance]>
+      finish pytest_itemcollected --> [] [hook]
+    genitems <Function test_two> [collection]
+      pytest_itemcollected [hook]
+          item: <Function test_two>
+      finish pytest_itemcollected --> [] [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport 'test_book_creation.py::TestClass' lenresult=6 outcome='passed'>
+      finish pytest_collectreport --> [] [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport 'test_book_creation.py::TestClass' lenresult=1 outcome='passed'>
+      finish pytest_collectreport --> [] [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport 'test_book_creation.py' lenresult=1 outcome='passed'>
+      finish pytest_collectreport --> [] [hook]
+      pytest_collection_modifyitems [hook]
+          session: <Session tests exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+          config: <_pytest.config.Config object at 0x1052ba9a0>
+          items: [<Function test_create_book_type_[Drama]>, <Function test_create_book_type_[Science]>, <Function test_create_book_type_[Satire]>, <Function test_create_book_type_[Action and Adventure]>, <Function test_create_book_type_[Romance]>, <Function test_two>]
+      finish pytest_collection_modifyitems --> [] [hook]
+      pytest_collection_finish [hook]
+          session: <Session tests exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+        pytest_report_collectionfinish [hook]
+            config: <_pytest.config.Config object at 0x1052ba9a0>
+            startdir: /Users/bbranytskyi/PycharmProjects/bookServiceAuto/tests
+            items: [<Function test_create_book_type_[Drama]>, <Function test_create_book_type_[Science]>, <Function test_create_book_type_[Satire]>, <Function test_create_book_type_[Action and Adventure]>, <Function test_create_book_type_[Romance]>, <Function test_two>]
+        finish pytest_report_collectionfinish --> [] [hook]
+      finish pytest_collection_finish --> [] [hook]
+    finish pytest_collection --> None [hook]
+    pytest_runtestloop [hook]
+        session: <Session tests exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=6>
+      pytest_runtest_protocol [hook]
+          item: <Function test_create_book_type_[Drama]>
+          nextitem: <Function test_create_book_type_[Science]>
+        pytest_runtest_logstart [hook]
+            nodeid: test_book_creation.py::TestClass::test_create_book_type_[Drama]
+            location: ('test_book_creation.py', 39, 'TestClass.test_create_book_type_[Drama]')
+        finish pytest_runtest_logstart --> [] [hook]
+        pytest_runtest_setup [hook]
+            item: <Function test_create_book_type_[Drama]>
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='xunit_setup_class_fixture_TestClass' scope='class' baseid='test_book_creation.py::TestClass'>
+              request: <SubRequest 'xunit_setup_class_fixture_TestClass' for <Function test_create_book_type_[Drama]>>
+          early skip of rewriting module: netrc [assertion]
+          finish pytest_fixture_setup --> None [hook]
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='xunit_setup_method_fixture_TestClass' scope='function' baseid='test_book_creation.py::TestClass'>
+              request: <SubRequest 'xunit_setup_method_fixture_TestClass' for <Function test_create_book_type_[Drama]>>
+          finish pytest_fixture_setup --> None [hook]
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='test_book_type' scope='function' baseid=''>
+              request: <SubRequest 'test_book_type' for <Function test_create_book_type_[Drama]>>
+          finish pytest_fixture_setup --> Drama [hook]
+        finish pytest_runtest_setup --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_create_book_type_[Drama]>
+            call: <CallInfo when='setup' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'test_book_creation.py::TestClass::test_create_book_type_[Drama]' when='setup' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'test_book_creation.py::TestClass::test_create_book_type_[Drama]' when='setup' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'test_book_creation.py::TestClass::test_create_book_type_[Drama]' when='setup' outcome='passed'>
+              config: <_pytest.config.Config object at 0x1052ba9a0>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_call [hook]
+            item: <Function test_create_book_type_[Drama]>
+          pytest_pyfunc_call [hook]
+              pyfuncitem: <Function test_create_book_type_[Drama]>
+          finish pytest_pyfunc_call --> True [hook]
+        finish pytest_runtest_call --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_create_book_type_[Drama]>
+            call: <CallInfo when='call' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'test_book_creation.py::TestClass::test_create_book_type_[Drama]' when='call' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'test_book_creation.py::TestClass::test_create_book_type_[Drama]' when='call' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'test_book_creation.py::TestClass::test_create_book_type_[Drama]' when='call' outcome='passed'>
+              config: <_pytest.config.Config object at 0x1052ba9a0>
+          finish pytest_report_teststatus --> ('passed', '.', 'PASSED') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_teardown [hook]
+            item: <Function test_create_book_type_[Drama]>
+            nextitem: <Function test_create_book_type_[Science]>
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='test_book_type' scope='function' baseid=''>
+              request: <SubRequest 'test_book_type' for <Function test_create_book_type_[Drama]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='xunit_setup_method_fixture_TestClass' scope='function' baseid='test_book_creation.py::TestClass'>
+              request: <SubRequest 'xunit_setup_method_fixture_TestClass' for <Function test_create_book_type_[Drama]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+        finish pytest_runtest_teardown --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_create_book_type_[Drama]>
+            call: <CallInfo when='teardown' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'test_book_creation.py::TestClass::test_create_book_type_[Drama]' when='teardown' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'test_book_creation.py::TestClass::test_create_book_type_[Drama]' when='teardown' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'test_book_creation.py::TestClass::test_create_book_type_[Drama]' when='teardown' outcome='passed'>
+              config: <_pytest.config.Config object at 0x1052ba9a0>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_logfinish [hook]
+            nodeid: test_book_creation.py::TestClass::test_create_book_type_[Drama]
+            location: ('test_book_creation.py', 39, 'TestClass.test_create_book_type_[Drama]')
+        finish pytest_runtest_logfinish --> [] [hook]
+      finish pytest_runtest_protocol --> True [hook]
+      pytest_runtest_protocol [hook]
+          item: <Function test_create_book_type_[Science]>
+          nextitem: <Function test_create_book_type_[Satire]>
+        pytest_runtest_logstart [hook]
+            nodeid: test_book_creation.py::TestClass::test_create_book_type_[Science]
+            location: ('test_book_creation.py', 39, 'TestClass.test_create_book_type_[Science]')
+        finish pytest_runtest_logstart --> [] [hook]
+        pytest_runtest_setup [hook]
+            item: <Function test_create_book_type_[Science]>
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='xunit_setup_method_fixture_TestClass' scope='function' baseid='test_book_creation.py::TestClass'>
+              request: <SubRequest 'xunit_setup_method_fixture_TestClass' for <Function test_create_book_type_[Science]>>
+          finish pytest_fixture_setup --> None [hook]
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='test_book_type' scope='function' baseid=''>
+              request: <SubRequest 'test_book_type' for <Function test_create_book_type_[Science]>>
+          finish pytest_fixture_setup --> Science [hook]
+        finish pytest_runtest_setup --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_create_book_type_[Science]>
+            call: <CallInfo when='setup' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'test_book_creation.py::TestClass::test_create_book_type_[Science]' when='setup' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'test_book_creation.py::TestClass::test_create_book_type_[Science]' when='setup' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'test_book_creation.py::TestClass::test_create_book_type_[Science]' when='setup' outcome='passed'>
+              config: <_pytest.config.Config object at 0x1052ba9a0>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_call [hook]
+            item: <Function test_create_book_type_[Science]>
+          pytest_pyfunc_call [hook]
+              pyfuncitem: <Function test_create_book_type_[Science]>
+          finish pytest_pyfunc_call --> True [hook]
+        finish pytest_runtest_call --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_create_book_type_[Science]>
+            call: <CallInfo when='call' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'test_book_creation.py::TestClass::test_create_book_type_[Science]' when='call' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'test_book_creation.py::TestClass::test_create_book_type_[Science]' when='call' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'test_book_creation.py::TestClass::test_create_book_type_[Science]' when='call' outcome='passed'>
+              config: <_pytest.config.Config object at 0x1052ba9a0>
+          finish pytest_report_teststatus --> ('passed', '.', 'PASSED') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_teardown [hook]
+            item: <Function test_create_book_type_[Science]>
+            nextitem: <Function test_create_book_type_[Satire]>
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='test_book_type' scope='function' baseid=''>
+              request: <SubRequest 'test_book_type' for <Function test_create_book_type_[Science]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='xunit_setup_method_fixture_TestClass' scope='function' baseid='test_book_creation.py::TestClass'>
+              request: <SubRequest 'xunit_setup_method_fixture_TestClass' for <Function test_create_book_type_[Science]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+        finish pytest_runtest_teardown --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_create_book_type_[Science]>
+            call: <CallInfo when='teardown' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'test_book_creation.py::TestClass::test_create_book_type_[Science]' when='teardown' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'test_book_creation.py::TestClass::test_create_book_type_[Science]' when='teardown' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'test_book_creation.py::TestClass::test_create_book_type_[Science]' when='teardown' outcome='passed'>
+              config: <_pytest.config.Config object at 0x1052ba9a0>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_logfinish [hook]
+            nodeid: test_book_creation.py::TestClass::test_create_book_type_[Science]
+            location: ('test_book_creation.py', 39, 'TestClass.test_create_book_type_[Science]')
+        finish pytest_runtest_logfinish --> [] [hook]
+      finish pytest_runtest_protocol --> True [hook]
+      pytest_runtest_protocol [hook]
+          item: <Function test_create_book_type_[Satire]>
+          nextitem: <Function test_create_book_type_[Action and Adventure]>
+        pytest_runtest_logstart [hook]
+            nodeid: test_book_creation.py::TestClass::test_create_book_type_[Satire]
+            location: ('test_book_creation.py', 39, 'TestClass.test_create_book_type_[Satire]')
+        finish pytest_runtest_logstart --> [] [hook]
+        pytest_runtest_setup [hook]
+            item: <Function test_create_book_type_[Satire]>
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='xunit_setup_method_fixture_TestClass' scope='function' baseid='test_book_creation.py::TestClass'>
+              request: <SubRequest 'xunit_setup_method_fixture_TestClass' for <Function test_create_book_type_[Satire]>>
+          finish pytest_fixture_setup --> None [hook]
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='test_book_type' scope='function' baseid=''>
+              request: <SubRequest 'test_book_type' for <Function test_create_book_type_[Satire]>>
+          finish pytest_fixture_setup --> Satire [hook]
+        finish pytest_runtest_setup --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_create_book_type_[Satire]>
+            call: <CallInfo when='setup' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'test_book_creation.py::TestClass::test_create_book_type_[Satire]' when='setup' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'test_book_creation.py::TestClass::test_create_book_type_[Satire]' when='setup' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'test_book_creation.py::TestClass::test_create_book_type_[Satire]' when='setup' outcome='passed'>
+              config: <_pytest.config.Config object at 0x1052ba9a0>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_call [hook]
+            item: <Function test_create_book_type_[Satire]>
+          pytest_pyfunc_call [hook]
+              pyfuncitem: <Function test_create_book_type_[Satire]>
+          finish pytest_pyfunc_call --> True [hook]
+        finish pytest_runtest_call --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_create_book_type_[Satire]>
+            call: <CallInfo when='call' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'test_book_creation.py::TestClass::test_create_book_type_[Satire]' when='call' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'test_book_creation.py::TestClass::test_create_book_type_[Satire]' when='call' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'test_book_creation.py::TestClass::test_create_book_type_[Satire]' when='call' outcome='passed'>
+              config: <_pytest.config.Config object at 0x1052ba9a0>
+          finish pytest_report_teststatus --> ('passed', '.', 'PASSED') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_teardown [hook]
+            item: <Function test_create_book_type_[Satire]>
+            nextitem: <Function test_create_book_type_[Action and Adventure]>
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='test_book_type' scope='function' baseid=''>
+              request: <SubRequest 'test_book_type' for <Function test_create_book_type_[Satire]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='xunit_setup_method_fixture_TestClass' scope='function' baseid='test_book_creation.py::TestClass'>
+              request: <SubRequest 'xunit_setup_method_fixture_TestClass' for <Function test_create_book_type_[Satire]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+        finish pytest_runtest_teardown --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_create_book_type_[Satire]>
+            call: <CallInfo when='teardown' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'test_book_creation.py::TestClass::test_create_book_type_[Satire]' when='teardown' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'test_book_creation.py::TestClass::test_create_book_type_[Satire]' when='teardown' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'test_book_creation.py::TestClass::test_create_book_type_[Satire]' when='teardown' outcome='passed'>
+              config: <_pytest.config.Config object at 0x1052ba9a0>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_logfinish [hook]
+            nodeid: test_book_creation.py::TestClass::test_create_book_type_[Satire]
+            location: ('test_book_creation.py', 39, 'TestClass.test_create_book_type_[Satire]')
+        finish pytest_runtest_logfinish --> [] [hook]
+      finish pytest_runtest_protocol --> True [hook]
+      pytest_runtest_protocol [hook]
+          item: <Function test_create_book_type_[Action and Adventure]>
+          nextitem: <Function test_create_book_type_[Romance]>
+        pytest_runtest_logstart [hook]
+            nodeid: test_book_creation.py::TestClass::test_create_book_type_[Action and Adventure]
+            location: ('test_book_creation.py', 39, 'TestClass.test_create_book_type_[Action and Adventure]')
+        finish pytest_runtest_logstart --> [] [hook]
+        pytest_runtest_setup [hook]
+            item: <Function test_create_book_type_[Action and Adventure]>
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='xunit_setup_method_fixture_TestClass' scope='function' baseid='test_book_creation.py::TestClass'>
+              request: <SubRequest 'xunit_setup_method_fixture_TestClass' for <Function test_create_book_type_[Action and Adventure]>>
+          finish pytest_fixture_setup --> None [hook]
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='test_book_type' scope='function' baseid=''>
+              request: <SubRequest 'test_book_type' for <Function test_create_book_type_[Action and Adventure]>>
+          finish pytest_fixture_setup --> Action and Adventure [hook]
+        finish pytest_runtest_setup --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_create_book_type_[Action and Adventure]>
+            call: <CallInfo when='setup' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'test_book_creation.py::TestClass::test_create_book_type_[Action and Adventure]' when='setup' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'test_book_creation.py::TestClass::test_create_book_type_[Action and Adventure]' when='setup' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'test_book_creation.py::TestClass::test_create_book_type_[Action and Adventure]' when='setup' outcome='passed'>
+              config: <_pytest.config.Config object at 0x1052ba9a0>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_call [hook]
+            item: <Function test_create_book_type_[Action and Adventure]>
+          pytest_pyfunc_call [hook]
+              pyfuncitem: <Function test_create_book_type_[Action and Adventure]>
+            pytest_assertrepr_compare [hook]
+                config: <_pytest.config.Config object at 0x1052ba9a0>
+                op: ==
+                left: 400
+                right: 200
+            finish pytest_assertrepr_compare --> [['400 == 200', '+400', '-200']] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_create_book_type_[Action and Adventure]>
+            call: <CallInfo when='call' excinfo=<ExceptionInfo AssertionError('Book was NOT created with test type Action and Adventure\nassert 400 == 200\n  +400\n  -200') tblen=25>>
+        finish pytest_runtest_makereport --> <TestReport 'test_book_creation.py::TestClass::test_create_book_type_[Action and Adventure]' when='call' outcome='failed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'test_book_creation.py::TestClass::test_create_book_type_[Action and Adventure]' when='call' outcome='failed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'test_book_creation.py::TestClass::test_create_book_type_[Action and Adventure]' when='call' outcome='failed'>
+              config: <_pytest.config.Config object at 0x1052ba9a0>
+          finish pytest_report_teststatus --> ('failed', 'F', 'FAILED') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_exception_interact [hook]
+            node: <Function test_create_book_type_[Action and Adventure]>
+            call: <CallInfo when='call' excinfo=<ExceptionInfo AssertionError('Book was NOT created with test type Action and Adventure\nassert 400 == 200\n  +400\n  -200') tblen=1>>
+            report: <TestReport 'test_book_creation.py::TestClass::test_create_book_type_[Action and Adventure]' when='call' outcome='failed'>
+        finish pytest_exception_interact --> [] [hook]
+        pytest_runtest_teardown [hook]
+            item: <Function test_create_book_type_[Action and Adventure]>
+            nextitem: <Function test_create_book_type_[Romance]>
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='test_book_type' scope='function' baseid=''>
+              request: <SubRequest 'test_book_type' for <Function test_create_book_type_[Action and Adventure]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='xunit_setup_method_fixture_TestClass' scope='function' baseid='test_book_creation.py::TestClass'>
+              request: <SubRequest 'xunit_setup_method_fixture_TestClass' for <Function test_create_book_type_[Action and Adventure]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+        finish pytest_runtest_teardown --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_create_book_type_[Action and Adventure]>
+            call: <CallInfo when='teardown' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'test_book_creation.py::TestClass::test_create_book_type_[Action and Adventure]' when='teardown' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'test_book_creation.py::TestClass::test_create_book_type_[Action and Adventure]' when='teardown' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'test_book_creation.py::TestClass::test_create_book_type_[Action and Adventure]' when='teardown' outcome='passed'>
+              config: <_pytest.config.Config object at 0x1052ba9a0>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_logfinish [hook]
+            nodeid: test_book_creation.py::TestClass::test_create_book_type_[Action and Adventure]
+            location: ('test_book_creation.py', 39, 'TestClass.test_create_book_type_[Action and Adventure]')
+        finish pytest_runtest_logfinish --> [] [hook]
+      finish pytest_runtest_protocol --> True [hook]
+      pytest_runtest_protocol [hook]
+          item: <Function test_create_book_type_[Romance]>
+          nextitem: <Function test_two>
+        pytest_runtest_logstart [hook]
+            nodeid: test_book_creation.py::TestClass::test_create_book_type_[Romance]
+            location: ('test_book_creation.py', 39, 'TestClass.test_create_book_type_[Romance]')
+        finish pytest_runtest_logstart --> [] [hook]
+        pytest_runtest_setup [hook]
+            item: <Function test_create_book_type_[Romance]>
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='xunit_setup_method_fixture_TestClass' scope='function' baseid='test_book_creation.py::TestClass'>
+              request: <SubRequest 'xunit_setup_method_fixture_TestClass' for <Function test_create_book_type_[Romance]>>
+          finish pytest_fixture_setup --> None [hook]
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='test_book_type' scope='function' baseid=''>
+              request: <SubRequest 'test_book_type' for <Function test_create_book_type_[Romance]>>
+          finish pytest_fixture_setup --> Romance [hook]
+        finish pytest_runtest_setup --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_create_book_type_[Romance]>
+            call: <CallInfo when='setup' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'test_book_creation.py::TestClass::test_create_book_type_[Romance]' when='setup' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'test_book_creation.py::TestClass::test_create_book_type_[Romance]' when='setup' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'test_book_creation.py::TestClass::test_create_book_type_[Romance]' when='setup' outcome='passed'>
+              config: <_pytest.config.Config object at 0x1052ba9a0>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_call [hook]
+            item: <Function test_create_book_type_[Romance]>
+          pytest_pyfunc_call [hook]
+              pyfuncitem: <Function test_create_book_type_[Romance]>
+          finish pytest_pyfunc_call --> True [hook]
+        finish pytest_runtest_call --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_create_book_type_[Romance]>
+            call: <CallInfo when='call' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'test_book_creation.py::TestClass::test_create_book_type_[Romance]' when='call' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'test_book_creation.py::TestClass::test_create_book_type_[Romance]' when='call' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'test_book_creation.py::TestClass::test_create_book_type_[Romance]' when='call' outcome='passed'>
+              config: <_pytest.config.Config object at 0x1052ba9a0>
+          finish pytest_report_teststatus --> ('passed', '.', 'PASSED') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_teardown [hook]
+            item: <Function test_create_book_type_[Romance]>
+            nextitem: <Function test_two>
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='test_book_type' scope='function' baseid=''>
+              request: <SubRequest 'test_book_type' for <Function test_create_book_type_[Romance]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='xunit_setup_method_fixture_TestClass' scope='function' baseid='test_book_creation.py::TestClass'>
+              request: <SubRequest 'xunit_setup_method_fixture_TestClass' for <Function test_create_book_type_[Romance]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+        finish pytest_runtest_teardown --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_create_book_type_[Romance]>
+            call: <CallInfo when='teardown' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'test_book_creation.py::TestClass::test_create_book_type_[Romance]' when='teardown' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'test_book_creation.py::TestClass::test_create_book_type_[Romance]' when='teardown' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'test_book_creation.py::TestClass::test_create_book_type_[Romance]' when='teardown' outcome='passed'>
+              config: <_pytest.config.Config object at 0x1052ba9a0>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_logfinish [hook]
+            nodeid: test_book_creation.py::TestClass::test_create_book_type_[Romance]
+            location: ('test_book_creation.py', 39, 'TestClass.test_create_book_type_[Romance]')
+        finish pytest_runtest_logfinish --> [] [hook]
+      finish pytest_runtest_protocol --> True [hook]
+      pytest_runtest_protocol [hook]
+          item: <Function test_two>
+          nextitem: None
+        pytest_runtest_logstart [hook]
+            nodeid: test_book_creation.py::TestClass::test_two
+            location: ('test_book_creation.py', 47, 'TestClass.test_two')
+        finish pytest_runtest_logstart --> [] [hook]
+        pytest_runtest_setup [hook]
+            item: <Function test_two>
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='xunit_setup_method_fixture_TestClass' scope='function' baseid='test_book_creation.py::TestClass'>
+              request: <SubRequest 'xunit_setup_method_fixture_TestClass' for <Function test_two>>
+          finish pytest_fixture_setup --> None [hook]
+        finish pytest_runtest_setup --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_two>
+            call: <CallInfo when='setup' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'test_book_creation.py::TestClass::test_two' when='setup' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'test_book_creation.py::TestClass::test_two' when='setup' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'test_book_creation.py::TestClass::test_two' when='setup' outcome='passed'>
+              config: <_pytest.config.Config object at 0x1052ba9a0>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_call [hook]
+            item: <Function test_two>
+          pytest_pyfunc_call [hook]
+              pyfuncitem: <Function test_two>
+          finish pytest_pyfunc_call --> True [hook]
+        finish pytest_runtest_call --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_two>
+            call: <CallInfo when='call' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'test_book_creation.py::TestClass::test_two' when='call' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'test_book_creation.py::TestClass::test_two' when='call' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'test_book_creation.py::TestClass::test_two' when='call' outcome='passed'>
+              config: <_pytest.config.Config object at 0x1052ba9a0>
+          finish pytest_report_teststatus --> ('passed', '.', 'PASSED') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_teardown [hook]
+            item: <Function test_two>
+            nextitem: None
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='xunit_setup_method_fixture_TestClass' scope='function' baseid='test_book_creation.py::TestClass'>
+              request: <SubRequest 'xunit_setup_method_fixture_TestClass' for <Function test_two>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='xunit_setup_class_fixture_TestClass' scope='class' baseid='test_book_creation.py::TestClass'>
+              request: <SubRequest 'xunit_setup_class_fixture_TestClass' for <Function test_two>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='xunit_setup_class_fixture_TestClass' scope='class' baseid='test_book_creation.py::TestClass'>
+              request: <SubRequest 'xunit_setup_class_fixture_TestClass' for <Function test_create_book_type_[Romance]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='xunit_setup_class_fixture_TestClass' scope='class' baseid='test_book_creation.py::TestClass'>
+              request: <SubRequest 'xunit_setup_class_fixture_TestClass' for <Function test_create_book_type_[Action and Adventure]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='xunit_setup_class_fixture_TestClass' scope='class' baseid='test_book_creation.py::TestClass'>
+              request: <SubRequest 'xunit_setup_class_fixture_TestClass' for <Function test_create_book_type_[Satire]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='xunit_setup_class_fixture_TestClass' scope='class' baseid='test_book_creation.py::TestClass'>
+              request: <SubRequest 'xunit_setup_class_fixture_TestClass' for <Function test_create_book_type_[Science]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='xunit_setup_class_fixture_TestClass' scope='class' baseid='test_book_creation.py::TestClass'>
+              request: <SubRequest 'xunit_setup_class_fixture_TestClass' for <Function test_create_book_type_[Drama]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+        finish pytest_runtest_teardown --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_two>
+            call: <CallInfo when='teardown' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'test_book_creation.py::TestClass::test_two' when='teardown' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'test_book_creation.py::TestClass::test_two' when='teardown' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'test_book_creation.py::TestClass::test_two' when='teardown' outcome='passed'>
+              config: <_pytest.config.Config object at 0x1052ba9a0>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_logfinish [hook]
+            nodeid: test_book_creation.py::TestClass::test_two
+            location: ('test_book_creation.py', 47, 'TestClass.test_two')
+        finish pytest_runtest_logfinish --> [] [hook]
+      finish pytest_runtest_protocol --> True [hook]
+    finish pytest_runtestloop --> True [hook]
+    pytest_sessionfinish [hook]
+        session: <Session tests exitstatus=<ExitCode.TESTS_FAILED: 1> testsfailed=1 testscollected=6>
+        exitstatus: 1
+      pytest_terminal_summary [hook]
+          terminalreporter: <_pytest.terminal.TerminalReporter object at 0x10541a580>
+          exitstatus: 1
+          config: <_pytest.config.Config object at 0x1052ba9a0>
+      early skip of rewriting module: pygments [assertion]
+        pytest_report_teststatus [hook]
+            report: <TestReport 'test_book_creation.py::TestClass::test_create_book_type_[Action and Adventure]' when='call' outcome='failed'>
+            config: <_pytest.config.Config object at 0x1052ba9a0>
+        finish pytest_report_teststatus --> ('failed', 'F', 'FAILED') [hook]
+      finish pytest_terminal_summary --> [] [hook]
+    finish pytest_sessionfinish --> [] [hook]
+    pytest_unconfigure [hook]
+        config: <_pytest.config.Config object at 0x1052ba9a0>
+    finish pytest_unconfigure --> [] [hook]
