@@ -15,8 +15,8 @@ XFAIL = pytest.mark.xfail
 
 class TestBookCreationPositive:
     def setup_class(self):
-        self.LOG = logging.getLogger(f"{self.__class__.__name__}")
-        self.B00K_SERVICE = RestBookServiceClient()
+        self.log = logging.getLogger(f"{self.__class__.__name__}")
+        self.book_service = RestBookServiceClient()
 
     def teardown_class(self):
         print("teardown_class called once for the class")
@@ -24,18 +24,18 @@ class TestBookCreationPositive:
     def setup_method(self):
         """Ensure there is 0 books in Service, if not - remove all book(s). Unfortunately, the dependency on
         DELETE /manipulations exists. No DB Service."""  # noqa: E501, W291
-        self.EXISTING_BOOKS_RESP = json.loads(self.B00K_SERVICE.search_books().text)
+        self.EXISTING_BOOKS_RESP = json.loads(self.book_service.search_books().text)
 
-        if self.EXISTING_BOOKS_RESP == self.B00K_SERVICE.DICT_NO_BOOKS:
+        if self.EXISTING_BOOKS_RESP == self.book_service.DICT_NO_BOOKS:
             pass
         else:
-            [self.B00K_SERVICE.remove_book(i["id"]) for i in self.EXISTING_BOOKS_RESP]
+            [self.book_service.remove_book(i["id"]) for i in self.EXISTING_BOOKS_RESP]
 
         # Double check.
-        self.EXISTING_BOOKS_RESP = json.loads(self.B00K_SERVICE.search_books().text)
+        self.EXISTING_BOOKS_RESP = json.loads(self.book_service.search_books().text)
 
-        assert self.EXISTING_BOOKS_RESP == self.B00K_SERVICE.DICT_NO_BOOKS
-        self.LOG.debug("Service is Empty. There is No Book. setup_class called once for the class")  # noqa
+        assert self.EXISTING_BOOKS_RESP == self.book_service.DICT_NO_BOOKS
+        self.log.debug("Service is Empty. There is No Book. setup_class called once for the class")  # noqa
 
     def teardown_method(self):
         print("  teardown_method called for every method")
@@ -57,13 +57,13 @@ class TestBookCreationPositive:
             "creation_date": f"{date.today().isoformat()}",
         }
 
-        resp_create_book = self.B00K_SERVICE.create_book(book_body)
+        resp_create_book = self.book_service.create_book(book_body)
 
-        self.B00K_SERVICE.validate_book_was_created(resp_create_book, test_book_type)
+        self.book_service.validate_book_was_created(resp_create_book, test_book_type)
         book_id = json.loads(resp_create_book.text)["id"]
 
         # GET created book, by id.
-        resp_get_book = self.B00K_SERVICE.search_book_info(book_id=book_id)
+        resp_get_book = self.book_service.search_book_info(book_id=book_id)
 
         # Validate book type.
         assert json.loads(resp_get_book.text)["type"] == test_book_type
@@ -82,12 +82,12 @@ class TestBookCreationPositive:
             "type": "Drama",
             "creation_date": f"{date_format}",
         }
-        resp_create_book = self.B00K_SERVICE.create_book(book_body)
+        resp_create_book = self.book_service.create_book(book_body)
 
-        self.B00K_SERVICE.validate_book_was_created(resp_create_book, date_format)
+        self.book_service.validate_book_was_created(resp_create_book, date_format)
         book_id = json.loads(resp_create_book.text)["id"]
         # GET created book, by id.
-        resp_get_book = self.B00K_SERVICE.search_book_info(book_id=book_id)
+        resp_get_book = self.book_service.search_book_info(book_id=book_id)
 
         # Validate created_date.
         assert json.loads(resp_get_book.text)["creation_date"] == date_format
@@ -95,12 +95,12 @@ class TestBookCreationPositive:
     def test_create_book_with_missing_creation_date_field(self):
         # Create a book.
         book_body = {"title": "TestAutoSmartQA", "type": "Drama"}
-        resp_create_book = self.B00K_SERVICE.create_book(book_body)
-        self.B00K_SERVICE.validate_book_was_created(resp_create_book, book_body)
+        resp_create_book = self.book_service.create_book(book_body)
+        self.book_service.validate_book_was_created(resp_create_book, book_body)
         book_id = json.loads(resp_create_book.text)["id"]
 
         # GET created book, by id.
-        resp_get_book = self.B00K_SERVICE.search_book_info(book_id=book_id)
+        resp_get_book = self.book_service.search_book_info(book_id=book_id)
 
         # Validate created_date.
         assert json.loads(resp_get_book.text)["creation_date"] is None
@@ -127,13 +127,13 @@ class TestBookCreationPositive:
             "type": "Drama",
             "creation_date": f"{date.today().isoformat()}",
         }
-        resp_create_book = self.B00K_SERVICE.create_book(book_body)
+        resp_create_book = self.book_service.create_book(book_body)
 
-        self.B00K_SERVICE.validate_book_was_created(resp_create_book, test_book_title)
+        self.book_service.validate_book_was_created(resp_create_book, test_book_title)
         book_id = json.loads(resp_create_book.text)["id"]
 
         # GET created book, by id.
-        resp_get_book = self.B00K_SERVICE.search_book_info(book_id=book_id)
+        resp_get_book = self.book_service.search_book_info(book_id=book_id)
 
         # Validate title.
         assert_that(
