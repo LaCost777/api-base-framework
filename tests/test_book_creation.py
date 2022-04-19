@@ -24,17 +24,17 @@ class TestBookCreationPositive:
     def setup_method(self):
         """Ensure there is 0 books in Service, if not - remove all book(s). Unfortunately, the dependency on
         DELETE /manipulations exists. No DB Service."""  # noqa: E501, W291
-        self.EXISTING_BOOKS_RESP = json.loads(self.book_service.search_books().text)
+        self.existing_book_resp = json.loads(self.book_service.search_books().text)
 
-        if self.EXISTING_BOOKS_RESP == self.book_service.DICT_NO_BOOKS:
+        if self.existing_book_resp == self.book_service.DICT_NO_BOOKS:
             pass
         else:
-            [self.book_service.remove_book(i["id"]) for i in self.EXISTING_BOOKS_RESP]
+            [self.book_service.remove_book(i["id"]) for i in self.existing_book_resp]
 
         # Double check.
-        self.EXISTING_BOOKS_RESP = json.loads(self.book_service.search_books().text)
+        self.existing_book_resp = json.loads(self.book_service.search_books().text)
 
-        assert self.EXISTING_BOOKS_RESP == self.book_service.DICT_NO_BOOKS
+        assert self.existing_book_resp == self.book_service.DICT_NO_BOOKS
         self.log.debug("Service is Empty. There is No Book. setup_class called once for the class")  # noqa
 
     def teardown_method(self):
